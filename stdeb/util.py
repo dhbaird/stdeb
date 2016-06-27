@@ -1377,7 +1377,7 @@ def build_dsc(debinfo,
         finally:
             shutil.rmtree(tmp_dir)
 
-    if 1:
+    if 0:
         # check versions of debhelper and python-all
         debhelper_version_str = get_version_str('debhelper')
         if len(debhelper_version_str)==0:
